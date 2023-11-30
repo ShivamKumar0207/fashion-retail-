@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Fashion Retail</title>
+</head>
+<body>
+    <div id="main">
+        <!-- in "back" section we will use pictures -->
+        <div id="back">
+            <img src="redgirl.jpeg" alt="image">
+            <img src="pinkgirl.jpeg" alt="image">
+            <img src="bluemen.png" alt="image">
+            <img src="greengirl.jpeg" alt="image">
+            <img src="whitegirl.jpg" alt="image">
+        </div>
+        <!-- in "top" section we will use text above the back section -->
+        <div id="top">
+            <div id="working-area">
+                <div id="nav">
+                    <div id="nleft">
+                   <a href="#"> <img src="nike2.png" alt="logo"> </a>
+                        <a href="https://www.nykaafashion.com/men/c/6823?root=topnav_1" target="_blank">Men</a>
+                        <a href="https://www.nykaafashion.com/women/c/6557?root=topnav_1" target="_blank">Women</a>
+                        <a href="#">Categories</a>
+                    </div>
+                    <div id="nright">
+                        <a href="#"><img src="wishlist.png" alt="wishlist-icon"/> Wishlist</a>
+                        <a href="#"><img src="cart.png" alt="cart-icon"/> Cart</a>
+                        <a href="#"><img src="profile.png" alt="profile-icon"/> Profile</a>
+                    </div>
+                </div>
+                <div id="model">
+                    <div id="model-left">
+                        <div class="elem">
+                            <h1>Fashion That</h1>
+                            <h1>Choose The</h1>
+                            <h1>Life Is Not</h1>
+                            <h1>Look The</h1>
+                           
+                        </div>
+                        <div class="elem">
+                            <h1>Exists In</h1>
+                            <h1>Best</h1>
+                            <h1>Perfect But</h1>
+                            <h1>Best Version</h1>
+                        </div>
+                        <div class="elem">
+                            <h1>Everything</h1>
+                            <h1>Choose,Us</h1>
+                            <h1>Your Outfit Can Be</h1>
+                            <h1>Of Yourself </h1>
+                        </div>
+                        <button>Explore  Now</button>
+                    </div>
+                    <div id="model-right"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- below the landing page slider container starts -->
+        <div id="Categories">
+            <h1>Shop By Categories</h1>
+        </div>
+        <div class="slider-container">
+            <div class="slider-images">
+                <div class="slider-img">
+                    <a href="https://www.nykaafashion.com/lp/men?pageType=nf-men&pageVariation=1&transaction_id=dac076b6a5bd5d61a8efd9ddc0e1b962&intcmp=nykaa:other:nf-women-dweb:default:categories-lead-ins-new:SLIDING_WIDGET_V2:3:men:-1:dac076b6a5bd5d61a8efd9ddc0e1b962" target="_blank"><img src="men.jpg" alt="man"></a>
+                    <h1>Men</h1>
+                    <div class="details">
+                        <!-- <h2>Men</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <a href="https://www.nykaafashion.com/lp/women?pageType=nf-women&pageVariation=1&transaction_id=80d2ab329d7edc53c7a0dbe3740cefaa&intcmp=nykaa:other:nf-women-dweb:default:our-stores:COLUMN_GRID_V2:12:women:-1:80d2ab329d7edc53c7a0dbe3740cefaa" target="_blank"><img src="women.jpg" alt="woman"></a>
+                    <h1>Women</h1>
+                    <div class="details">
+                        <!-- <h2>Women</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <a href="https://www.nykaafashion.com/lp/kids?pageType=nf-kids&pageVariation=1&transaction_id=0871889bedcc120f11fc834f45e2d070&intcmp=nykaa:other:nf-women-dweb:default:categories-lead-ins-new:SLIDING_WIDGET_V2:3:kids:-1:0871889bedcc120f11fc834f45e2d070" target="_blank"><img src="kids.jpg" alt="man"></a>
+                    <h1>Kids</h1>
+                    <div class="details">
+                        <!-- <h2>Kids</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+                <div class="slider-img active">
+                    <a href="https://www.nykaafashion.com/women/indianwear/c/4" target="_blank"><img src="ethnic.jpeg" alt="man"></a>
+                    <h1>Ethnic Wear</h1>
+                    <div class="details">
+                        <!-- <h2>Ethnic Wear</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <a href="https://www.nykaafashion.com/men/topwear/hoodies/c/6831?root=nav_3&ptype=listing%2Cmen%2Ctopwear%2Choodies%2C12%2Choodies" target="_blank"><img src="winter.jpeg" alt="man"></a>
+                    <!-- <h1>Winterwear</h1> -->
+                    <div class="details">
+                        <h1>Winterwear</h1>
+                        <!-- <h2>Winterwear</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <a href="https://www.nykaafashion.com/lp/fit-zone?pageType=nf-fit-zone&root=topnav_1,more,5" target="_blank"><img src="sports.jpeg" alt="sports-wear"></a>
+                    <!-- <h1>Sportswear</h1> -->
+                    <div class="details">
+                        <h1>Sportswear</h1>
+                        <!-- <h2>Sportswear</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <a href="https://www.nykaafashion.com/men/footwear/c/6857?root=nav_3&ptype=listing%2Cmen%2Cfootwear%2Cshop-all%2C3%2Cshop-all" target="_blank"><img src="footwear.jpeg" alt="woman"></a>
+                    <!-- <h1>Footwear</h1> -->
+                    <div class="details">
+                        <h1>Footwear</h1>
+                        <!-- <h2>Footwear</h2>
+                        <button>View More</button> -->
+                    </div>
+                </div>
+            </div>
+            <div id="slider-text">
+                <q>You can have anything you want in life if you dress for it.</q>
+                <br>
+                <h4><u>~Edith Head&nbsp;✨</u></h4>
+            </div>
+        </div>
+        
+        <!-- Third Page contains canvas with scrolling animation -->
+        <div class="page3">
+            <video autoplay loop muted>
+                <source src="fvideo.mp4" type="video/mp4">
+            </video>
+            <img src="sales.jpg" alt="sale-banner">   
+            </div>
+        </div>
+        <!-- 4th page -->
+          <div class="featured-product">
+            <div class="card">
+                <div class="pd-img">
+                    <img src="product-1-img.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Red Tape</h3>
+                    <p>Red Tape Light Grey Regular <br> Fit Hooded Sweatshirt</p>
+                    <br>
+                </div>
+                <div class="price_rating">
+                    <h2>Rs. 1499</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd product -->
+            <div class="card">
+                <div class="pd-img">
+                    <img src="product-2-img.avif" alt="">
+                </div>
+                <div class="content">
+                    <h3>RIGO</h3>
+                    <p>Men Maroon Henley Neck Full <br> Sleeves Waffle Knit T-Shirt</p>
+                    <br>
+                </div>
+                <div class="price_rating">
+                    <h2>Rs. 599</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            </div>
+               
+                 <!-- 3rd product -->
+            <div class="card">
+                    <div class="pd-img">
+                        <img src="product-3-img.avif" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Louis Philippe</h3>
+                        <p>Men Blue Slim Fit Textured <br> Full Sleeves Casual Shirt</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 1299</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+            </div>
+            <!-- 4th product -->
+             <div class="card">
+                <div class="pd-img">
+                    <img src="product-4-img.avif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Louis Philippe</h3>
+                    <p>Men Blue Slim Fit Textured <br> Full Sleeves Casual Shirt</p>
+                    <br>
+                </div>
+                <div class="price_rating">
+                    <h2>Rs. 1299</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="featured-product2">
+            <div class="card">
+                <div class="pd-img">
+                    <img src="product-5-img.avif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Red Tape</h3>
+                    <p>Stylum <br> Womens Floral Printed Rayon </p>
+                    <br>
+                </div>
+                <div class="price_rating">
+                    <h2>Rs. 1099</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd product -->
+            <div class="card">
+                <div class="pd-img">
+                    <img src="product-6-img.avif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Stylum</h3>
+                    <p>Womens Floral Printed Cotton Pleated <br> Kurta Palazzo Dupatta (Set of 3)</p>
+                    <br>
+                </div>
+                <div class="price_rating">
+                    <h2>Rs. 1399</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            </div>
+               
+                 <!-- 3rd product -->
+            <div class="card">
+                    <div class="pd-img">
+                        <img src="product-7-img.avif" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Odette</h3>
+                        <p>Green Soft Net Semi Stitched Lehenga <br> with Unstitched Blouse (Set of 3)</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 2599</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+            </div>
+            <!-- 4th product -->
+             <div class="card">
+                <div class="pd-img">
+                    <img src="product-8-img.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Label </h3>
+                    <p>Hot Pink A-Line Fit And Flare Short Dress With Back Bow Tie</p>
+                    <br>
+                </div>
+                <div class="price_rating">
+                    <h2>Rs. 999</h2>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+             </div>
+
+             <div class="featuredpd-3">
+                <div class="card">
+                    <div class="pd-img">
+                        <img src="product-9-img.avif" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>PSPeaches</h3>
+                        <p>Girls Red Lehenga Choli (Set of 3)</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 1199</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd product -->
+                <div class="card">
+                    <div class="pd-img">
+                        <img src="product-10-img.avif" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>ANTHRILO</h3>
+                        <p>Tie Dye Star Fleece Sweatshirt - Pink</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 799</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+                </div>
+                   
+                     <!-- 3rd product -->
+                <div class="card">
+                        <div class="pd-img">
+                            <img src="product-11-img.avif" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>PSPeaches</h3>
+                            <p>Peach Red Flower Kurta Pyjama (Set of 2)</p>
+                            <br>
+                        </div>
+                        <div class="price_rating">
+                            <h2>Rs. 1699</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        
+                            </div>
+                        </div>
+                </div>
+                <!-- 4th product -->
+                 <div class="card">
+                    <div class="pd-img">
+                        <img src="product-12-img.avif" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Stylo Bug</h3>
+                        <p>Solid Collar Neck Full Sleeves Full Length <br>Ethnic Wear Kurta set with Jacket -Blue</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 1299</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="featuredpd-4">
+                    <div class="card">
+                        <div class="pd-img">
+                            <img src="product-13-img.avif" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Red Tape</h3>
+                            <p>Red Tape Casual Shoe</p>
+                            <br>
+                        </div>
+                        <div class="price_rating">
+                            <h2>Rs. 1499</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd product -->
+                    <div class="card">
+                        <div class="pd-img">
+                            <img src="product-14-img.avif" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Red Tape</h3>
+                            <p>Casual Shoe</p>
+                            <br>
+                        </div>
+                        <div class="price_rating">
+                            <h2>Rs. 599</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        
+                            </div>
+                        </div>
+                    </div>
+                       
+                         <!-- 3rd product -->
+                    <div class="card">
+                            <div class="pd-img">
+                                <img src="product-15-img.avif" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Puma</h3>
+                                <p>Casual Shoe</p>
+                                <br>
+                            </div>
+                            <div class="price_rating">
+                                <h2>Rs. 1299</h2>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            
+                                </div>
+                            </div>
+                    </div>
+                    <!-- 4th product -->
+                     <div class="card">
+                        <div class="pd-img">
+                            <img src="product-16-img.avif" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Louis Philippe</h3>
+                            <p>Men Blue Slim Fit Textured <br> Full Trouser</p>
+                            <br>
+                        </div>
+                        <div class="price_rating">
+                            <h2>Rs. 1299</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        
+                            </div>
+                        </div>
+
+            </div>
+
+            <div class="featuredpd-5">
+                <div class="card">
+                    <div class="pd-img">
+                        <img src="product-17-img.avif" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Red Tape</h3>
+                        <p>Red Tape Light Grey Regular <br> Fit Jeans</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 1499</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd product -->
+                <div class="card">
+                    <div class="pd-img">
+                        <img src="product-18-img.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>RIGO</h3>
+                        <p>Men Maroon Henley Jeans</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 599</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+                </div>
+                   
+                     <!-- 3rd product -->
+                <div class="card">
+                        <div class="pd-img">
+                            <img src="product-19-img.avif" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Louis Philippe</h3>
+                            <p>Men Blue Slim Fit Textured Jeans</p>
+                            <br>
+                        </div>
+                        <div class="price_rating">
+                            <h2>Rs. 1299</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        
+                            </div>
+                        </div>
+                </div>
+                <!-- 4th product -->
+                 <div class="card">
+                    <div class="pd-img">
+                        <img src="product-20-img.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Louis Philippe</h3>
+                        <p>Men Blue Slim Fit Textured <br> Full Sleeves Casual Shirt</p>
+                        <br>
+                    </div>
+                    <div class="price_rating">
+                        <h2>Rs. 1299</h2>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+                        </div>
+                    </div>
+                 </div>
+
+                 <!--  FOOTER START -->
+  
+        <div class="footer">
+            <div class="inner-footer">
+  
+    <!--  for company name and description -->
+      <div class="footer-items">
+        <h1>New Fashion Era</h1>
+        <p>Look the best version of yourself.</p>
+      </div>
+  
+    <!--  for quick links  -->
+      <div class="footer-items">
+        <h3>Quick Links</h3>
+        <div class="border1"></div> <!--for the underline -->
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Men</li></a>
+            <a href="#"><li>Women</li></a>
+            <a href="#"><li>Categories</li></a>
+          </ul>
+      </div>
+  
+    <!--  for some other links -->
+      <div class="footer-items">
+        <h3>More</h3>
+        <div class="border1"></div>  <!--for the underline -->
+          <ul>
+            <a href="#"><li>Kidswear</li></a>
+            <a href="#"><li>Winterwear</li></a>
+            <a href="#"><li>Ethicwear</li></a>
+            <a href="#"><li>Footware</li></a>
+          </ul>
+      </div>
+  
+    <!--  for contact us info -->
+      <div class="footer-items">
+        <h3>Contact us</h3>
+        <div class="border1"></div>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Lovely Proffesional University,Punjab</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>7488883667</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>shivam21733@gmail.com</li>
+          </ul> 
+        
+  <!--   for social links -->
+          <div class="social-media">
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></i></a>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+          </div> 
+      </div>
+    </div>
+    
+    <!--   Footer Bottom start  -->
+    <div class="footer-bottom">
+      Copyright &copy; New Fashion Era 2023.
+    </div>
+    </div>
+    
+    <!--   Footer Bottom end -->
+    
+    <!--   FOOTER END -->
+         </div>
+        </div> 
+
+       
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
